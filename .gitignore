@@ -1,5 +1,6 @@
-./HBNN_train_data
-./train_data
-./test_data
-./BNN_output
-./HBNN_output
+HBNN_train_data
+train_data
+test_data
+BNN_output
+HBNN_output
+Routines
