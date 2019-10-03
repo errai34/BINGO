@@ -17,7 +17,7 @@ np.random.seed(1234)
 floatX = theano.config.floatX
 
 ninit = 200000
-nchains = 2
+nchains = 4
 ncores = 2
 nsamples = 500
 
@@ -88,7 +88,7 @@ def get_data(input_data):
 
     return inputsTrain, errInputsTrain, targetsTrain, errTargetsTrain
 
-data = '../train_data/AllTrainedNorm.csv'
+data = './train_data/AllTrainedNorm.csv'
 # Only use two small datasets for testing purposes
 inputsTrain, errInputsTrain, targetsTrain, errTargetsTrain = get_data(data)
 
