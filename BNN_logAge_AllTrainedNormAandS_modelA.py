@@ -17,8 +17,8 @@ np.random.seed(1234)
 floatX = theano.config.floatX
 
 ninit = 200000
-nchains = 2
-ncores = 2
+nchains = 4
+ncores = 4
 nsamples = 500
 
 cache_file_bnn = './BNN_output/BNN_logAge_AllTrainedNormAandS_modelA.trace'
