@@ -88,7 +88,7 @@ def get_data(input_data):
 
     return inputsTrain, errInputsTrain, targetsTrain, errTargetsTrain
 
-data = '../HBNN_train_data/AllTrainedNormAugShuffled.csv'
+data = './HBNN_train_data/AllTrainedNormAugShuffled.csv'
 # Only use two small datasets for testing purposes
 inputsTrain, errInputsTrain, targetsTrain, errTargetsTrain = get_data(data)
 
