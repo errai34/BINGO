@@ -1,6 +1,3 @@
-HBNN_train_data
-train_data
+HBNN_train_data/AllTrainedNormAugShuffled_*
 test_data
-BNN_output
-HBNN_output
 Routines
