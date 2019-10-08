@@ -18,7 +18,7 @@ floatX = theano.config.floatX
 
 ninit = 200000
 nchains = 4
-ncores = 2
+ncores = 4
 nsamples = 500
 
 cache_file_bnn = './BNN_output/BNN_logAge_AllTrainedNorm_modelB.trace'
