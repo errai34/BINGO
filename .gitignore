@@ -1,3 +1,6 @@
 HBNN_train_data/AllTrainedNormAugShuffled_*
 test_data
 Routines
+NewPlots
+LowAlpha
+HighAlpha
